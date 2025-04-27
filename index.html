@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Explorer - Single Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+  <a href="#home">Home</a> |
+  <a href="#destinations">Destinations</a> |
+  <a href="#packages">Packages</a> |
+  <a href="#gallery">Gallery</a> |
+  <a href="#contact">Contact</a>
+</nav>
+<hr>
+
+<!-- Home Section -->
+<section id="home" >
+    <h1 style="font-size: 50px;">Welcome to Travel Explorer!</h1>
+    <p style="font-size: 20px; color: #fff; line-height: 1.6;">
+        Discover the most beautiful and exotic places across the globe with us. From serene beaches and snow-capped mountains to vibrant cities and cultural wonders, we have it all! Let us help you plan the perfect getaway that fits your dreams and budget. Let's embark on a journey to make your travel fantasies a reality and create memories that will last a lifetime!
+    </p>
+    <img src="travel1.png" alt="Travel Explorer" style="width: 300px; height: auto; display: block; margin: 20px auto;">
+</section>
+
+<!-- Destinations Section -->
+<section id="destinations">
+    <h1 style="font-size: 50px;">Popular Destinations</h1>
+    <ul><br><br><br>
+        <li style="font-size: 24px;"><b>Goa, India</b> – Beaches and nightlife!</li>
+        <br><br>
+        <li style="font-size: 24px;"><b>Paris, France</b> – City of love and lights!</li>
+        <br><br>
+        <li style="font-size: 24px;"><b>Dubai, UAE</b> – Desert safari and skyscrapers!</li>
+        <br><br>
+        <li style="font-size: 24px;"><b>Tokyo, Japan</b> – Culture meets technology!</li>
+    </ul>
+</section>
+
+
+<!-- Packages Section -->
+<section id="packages">
+    <h1 style="font-size: 50px;">Travel Packages</h1>
+    <br><br><br><table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Destination</th>
+            <th>Duration</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Goa</td>
+            <td>3 Days</td>
+            <td>₹10,000</td>
+        </tr>
+        <tr>
+            <td>Paris</td>
+            <td>5 Days</td>
+            <td>₹50,000</td>
+        </tr>
+        <tr>
+            <td>Dubai</td>
+            <td>4 Days</td>
+            <td>₹30,000</td>
+        </tr>
+        <tr>
+            <td>Tokyo</td>
+            <td>6 Days</td>
+            <td>₹40,000</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+    <h1 style="font-size: 50px;">Gallery</h1>
+    <div id="gallery-images">
+        <div class="gallery-item">
+            <img src="goa.jpg" alt="Goa" style="width: 300px; height: 200px;">
+            <p>Goa, India</p>
+        </div>
+        <div class="gallery-item">
+            <img src="paris.jpg" alt="Paris" style="width: 300px; height: 200px;">
+            <p>Paris, France</p>
+        </div>
+        <div class="gallery-item">
+            <img src="dubai.jpg" alt="Dubai" style="width: 300px; height: 200px;">
+            <p>Dubai, UAE</p>
+        </div>
+        <div class="gallery-item">
+            <img src="tokyo.jpg" alt="Tokyo" style="width: 300px; height: 200px;">
+            <p>Tokyo, Japan</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h1 style="font-size: 40px;">Contact Us</h1>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+        
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+</body>
+</html>

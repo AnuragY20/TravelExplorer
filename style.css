@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#home, #destinations, #packages, #gallery {
+    height: 100vh;
+}
+#contact{
+    height: 70vh;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+h1 {
+    text-align: center;
+    color: #00bfff;
+}
+
+p, ul, table, form {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+table {
+    background-color: #333;
+}
+
+#gallery {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Vertical layout for title and images */
+    align-items: center; /* Center title */
+    justify-content: flex-start; /* Title at top */
+}
+
+#gallery h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #00bfff; /* Optional title color */
+}
+
+#gallery-images {
+    display: flex;
+    flex-direction: row; /* Horizontal layout for images */
+    justify-content: center; /* Center align images */
+    flex-wrap: wrap; /* Wrap images if screen size is smaller */
+    margin-top: 20px; /* Space between title and images */
+}
+
+#gallery-images img {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid white; /* White border around images */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: #222;
+    border: 1px solid #00bfff;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #00bfff;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* section {
+    padding: 50px 0;
+} */
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #fff; /* White line between sections */
+}
